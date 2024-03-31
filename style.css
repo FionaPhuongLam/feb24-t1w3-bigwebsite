@@ -32,17 +32,32 @@ header {
     height: 10dvh;
     width: 100dvw;
     text-align: center;
-    font-size: medium;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+nav > a {
+    text-decoration: none;
+    background-color: var(--pink-heart-700);
+    color: white;      
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+nav > a:hover {
+    background-color: var(--pink-heart-900);
+}
+
 footer {
     background-color: var(--pink-heart-400);
     height: 5dvh;
     width: 100dvw;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -63,13 +78,18 @@ main > img {
     height: 20dvh;
     width: 50dvw;
     background-color: var(--pink-heart-500);
-    color: #F6D5DA;
+    color: var(--pink-heart-300);
     object-fit: cover;
 }
 
 main > p {
     font-size: small;
 }
+
+main > h1 {
+    text-align: center;
+}
+
 
 /* header, footer {
     background-color: var(--pink-heart-400);
