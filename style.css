@@ -38,6 +38,10 @@ header {
     align-items: center;
 }
 
+nav {
+    margin-top: 0.5em;
+}
+
 nav > a {
     text-decoration: none;
     background-color: var(--pink-heart-700);
