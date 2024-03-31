@@ -1,0 +1,100 @@
+/* CSS HEX */
+
+:root { 
+    --pink-heart-50: #FDF3F4;
+    --pink-heart-100: #FBE8EB;
+    --pink-heart-200: #F6D5DA;
+    --pink-heart-300: #EA9DAA;
+    --pink-heart-400: #E58799;
+    --pink-heart-500: #D75C77;
+    --pink-heart-600: #C13D60;
+    --pink-heart-700: #A22E4F;
+    --pink-heart-800: #882947;
+    --pink-heart-900: #752642;
+    --pink-heart-950: #411020;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* { 
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pink-heart-200);
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: var(--pink-heart-400);
+    height: 10dvh;
+    width: 100dvw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    margin-top: 0.5em;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: var(--pink-heart-700);
+    color: white;      
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+nav > a:hover {
+    background-color: var(--pink-heart-900);
+}
+
+footer {
+    background-color: var(--pink-heart-400);
+    height: 5dvh;
+    width: 100dvw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 85dvh;
+    width: 100dvw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > * {
+    margin: 1em;
+}
+
+main > img {
+    height: 20dvh;
+    width: 50dvw;
+    background-color: var(--pink-heart-500);
+    color: var(--pink-heart-300);
+    object-fit: cover;
+}
+
+main > p {
+    font-size: small;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+
+/* header, footer {
+    background-color: var(--pink-heart-400);
+} */
